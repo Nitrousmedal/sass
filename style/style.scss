@@ -20,7 +20,7 @@ body{
 @import "nav.scss";
 
 .box1{
-    @include theme1;
+    @include theme1($themecolor: navajowhite);
     height:100px;
 
 }
