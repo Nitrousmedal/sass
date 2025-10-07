@@ -3,9 +3,30 @@ $second-color:#9912ed;
 $third-color: brown;
 $font: Helvetica, sans-sarif;
 
+@mixin theme1($themecolor: pink){
+    background-color: $themecolor;
+    padding:5px;
+    box-shadow: 0 0 2px rgba(22, 33, 44, 0.8); 
+    color:chartreuse;
+
+
+}
+
 
 body{
     background-color: $base-color;
 }
 
-@import "nav.scss"
+@import "nav.scss";
+
+.box1{
+    @include theme;
+}
+
+.box2{
+    @include theme($themecolor: cornflowerblue)
+}
+
+.box3{
+    @include theme1($themecolor: chocolate)
+}
