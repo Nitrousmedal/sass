@@ -1,0 +1,11 @@
+$base-color: blue;   /*sky blue*/
+$second-color:#9912ed;
+$third-color: brown;
+$font: Helvetica, sans-sarif;
+
+
+body{
+    background-color: $base-color;
+}
+
+@import "nav.scss"
