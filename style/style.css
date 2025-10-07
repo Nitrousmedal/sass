@@ -32,4 +32,28 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.box1 {
+  background-color: pink;
+  padding: 5px;
+  box-shadow: 0 0 2px rgba(22, 33, 44, 0.8);
+  color: chartreuse;
+  height: 100px;
+}
+
+.box2 {
+  background-color: cornflowerblue;
+  padding: 5px;
+  box-shadow: 0 0 2px rgba(22, 33, 44, 0.8);
+  color: chartreuse;
+  height: 100px;
+}
+
+.box3 {
+  background-color: chocolate;
+  padding: 5px;
+  box-shadow: 0 0 2px rgba(22, 33, 44, 0.8);
+  color: chartreuse;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */

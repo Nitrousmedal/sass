@@ -20,13 +20,17 @@ body{
 @import "nav.scss";
 
 .box1{
-    @include theme;
+    @include theme1;
+    height:100px;
+
 }
 
 .box2{
-    @include theme($themecolor: cornflowerblue)
+    @include theme1($themecolor: cornflowerblue);
+    height:100px;
 }
 
 .box3{
-    @include theme1($themecolor: chocolate)
+    @include theme1($themecolor: chocolate);
+    height:100px;
 }
